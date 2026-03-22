@@ -1,16 +1,16 @@
 class Genesis < Formula
   desc "Universal autonomous AI agent with multi-agent swarm execution"
   homepage "https://github.com/deadraid/genesis"
-  version "0.1.6"
+  version "0.1.7"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/deadraid/genesis/releases/download/v#{version}/genesis-macos-aarch64.tar.gz"
-      sha256 "4335f6924dcc80cbd84ca73c3cc11ff6075f3a70d7600f1770e1a8838b40c7a2"
+      sha256 "004d45aaf63ce30e5be6d4f7862acbb0e9a8d3e18360ec87fbf17964a25b331c"
     else
       url "https://github.com/deadraid/genesis/releases/download/v#{version}/genesis-macos-x86_64.tar.gz"
-      sha256 "16b7fe47f410b506e745471f675949372deece53b73d0aa322f222ac135d453f"
+      sha256 "181efc2872441f3a0295df4d6abcc89a28b3e1e609bf123b9d9062b025b1fc54"
     end
   end
 
