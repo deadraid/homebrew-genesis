@@ -7,20 +7,20 @@ class Genesis < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/deadraid/genesis/releases/download/v#{version}/genesis-macos-aarch64.tar.gz"
-      sha256 "ec4ea24a702ba0523384e3961e490f3a3a3e516a62d2684279683301b91ae848"
+      sha256 "5f4cc4475cfc5aee93ef0df9df75be47583f469d598e2a99369646347abc022e"
     else
       url "https://github.com/deadraid/genesis/releases/download/v#{version}/genesis-macos-x86_64.tar.gz"
-      sha256 "7459c37b8176dfd840a34ba10ea74b3237bca6a139651f488e9bc45e71c5ad83"
+      sha256 "12c8b048d2261a5e68a0e42d5043c931761d9a13ffcae12ced89681c0d7c68a4"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/deadraid/genesis/releases/download/v#{version}/genesis-linux-aarch64.tar.gz"
-      sha256 "6316148aad04f263a92ba88bcd8b7ffe4f9c18269817d7ab7dea3a73c01751d8"
+      sha256 "2105b1bceb6eed1a53c356b68ffae7bc18254aae188dd269592d232e3e460758"
     else
       url "https://github.com/deadraid/genesis/releases/download/v#{version}/genesis-linux-x86_64.tar.gz"
-      sha256 "19d0d2363a622129c90c320eccd3b48cf5e847948c86e7364d29c8bc8cf62733"
+      sha256 "cfe8ff689510301257bec280667963996fb89bbed8325c7512b36dcec32bcd42"
     end
   end
 
