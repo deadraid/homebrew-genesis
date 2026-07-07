@@ -1,26 +1,26 @@
 class Genesis < Formula
   desc "Universal autonomous AI agent with multi-agent swarm execution"
-  homepage "https://github.com/deadraid/genesis"
-  version "0.6.19"
-  license "MIT"
+  homepage "https://github.com/deadraid/genesis-releases"
+  version "0.7.0"
+  license :cannot_represent # Proprietary — see https://github.com/deadraid/genesis-releases
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/deadraid/genesis/releases/download/v#{version}/genesis-macos-aarch64.tar.gz"
-      sha256 "91132f8557b849e0c4f1e7b3101f5e92090d5e04a975b5aa445b10bb971c0bcb"
+      url "https://github.com/deadraid/genesis-releases/releases/download/v#{version}/genesis-macos-aarch64.tar.gz"
+      sha256 "75dbc19db899bba668005fc3a7c01c04fd75616748d01fd204be77f21089b77a"
     else
-      url "https://github.com/deadraid/genesis/releases/download/v#{version}/genesis-macos-x86_64.tar.gz"
-      sha256 "a2c5a53a9ee8be5f72d3f1086f52a9aa81007a5d71ef1c83e85de9754f555f70"
+      url "https://github.com/deadraid/genesis-releases/releases/download/v#{version}/genesis-macos-x86_64.tar.gz"
+      sha256 "f75b3f2d3570961cef4b854ac89fe3c7a488750da2ee6ace8cf681195c5347ec"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/deadraid/genesis/releases/download/v#{version}/genesis-linux-aarch64.tar.gz"
-      sha256 "5a1efec2d02ae83d45b8f34352df4609f5048f149a78dca67ba937b85b522b70"
+      url "https://github.com/deadraid/genesis-releases/releases/download/v#{version}/genesis-linux-aarch64.tar.gz"
+      sha256 "90bd075bf931cb223192137c438bedeb9cf456cb63d4df0669ccaee6077229cf"
     else
-      url "https://github.com/deadraid/genesis/releases/download/v#{version}/genesis-linux-x86_64.tar.gz"
-      sha256 "7500e4ef2961ddaa236dd865adde5df76dabde4f296b0f542268890004470007"
+      url "https://github.com/deadraid/genesis-releases/releases/download/v#{version}/genesis-linux-x86_64.tar.gz"
+      sha256 "824dfd025d024a843a2c556d0e2c43a8c02a2df6e6ce08ea42ff720bce6fdc0f"
     end
   end
 
