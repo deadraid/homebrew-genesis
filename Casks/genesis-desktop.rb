@@ -1,12 +1,12 @@
 cask "genesis-desktop" do
-  version "0.7.0"
+  version "0.8.1"
 
   on_arm do
-    sha256 "086f7303a294b6fbf7ce290332a355f6abe5b312a36ef77784d674ed5cf710f4"
+    sha256 "0364464c61fc3af7e6f8a260da4906dce4df4f377da56f88d0d908e00154cef1"
     url "https://github.com/deadraid/genesis-releases/releases/download/v#{version}/Genesis-#{version}-arm64.zip"
   end
   on_intel do
-    sha256 "01ed58c7c719673e65b2c3295423de86b3bb5d81ae6b144331575150b67a7077"
+    sha256 "868ae972497f84b7d93ba3fa6783a2d634b242c974b8c2e63e5c57ecda7002c6"
     url "https://github.com/deadraid/genesis-releases/releases/download/v#{version}/Genesis-#{version}-x64.zip"
   end
 
